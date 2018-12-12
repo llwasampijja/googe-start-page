@@ -10,6 +10,10 @@ html, body {
     width: 95%;
 }
 
+header {
+    background-color: #3498DB;
+}
+
 header .top-header ul {
     float: right;
 }
@@ -23,6 +27,15 @@ header .menu-btn {
     display: none;
 }
 
+.dropdownbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
 header .top-header ul li {
     list-style: none;
     display: inline-block;
@@ -30,12 +43,13 @@ header .top-header ul li {
 }
 
 .main-content {
-    width: 60%;
+    display: block;
+    width: 85%;
     margin: 10px;
 }
 
 .main-content img {
-    width: 50%;
+    width: 300px;
     display: block;
     margin: auto;
 }
@@ -47,6 +61,7 @@ header .top-header ul li {
 .main-content form .form-elements{
     width: 95%;
     margin: 20px auto;
+    
     
 }
 
@@ -64,6 +79,7 @@ header .top-header ul li {
 .main-content form .form-elements .search-btn {
     display: inline-block;
     padding: 10px;
+    font-weight: bold;
 }
 
 .main-content .languages {
@@ -144,6 +160,24 @@ footer .footer-bottom .footer-right-menu{
           
     }
 
+    .main-content img {
+        width: 50%;
+    }
+
+    .main-content .languages ul li {
+        display: block;    
+    }
+
+    footer .footer-top {
+        margin: 5px 0px 0px;
+        padding: 5px 0px;
     
+    }
+    
+    
+    footer .footer-bottom {
+        margin: 0px 0px 5px;
+        padding: 5px 0px;  
+    }
 
   }
