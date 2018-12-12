@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Start Page</title>
-    <link rel="stylesheet" href="styles/main.css"/>
+    <link rel="stylesheet" href="styles/main.css" />
 </head>
+
 <body>
     <header>
         <div class="top-header">
@@ -15,16 +17,27 @@
                 <li>Images</li>
             </ul>
         </div>
+        <div class="mobile-menu">
+            <button class="dropbtn">&#9776;</button>
+            <div class="menu-content">
+                <ul>
+                    <li>Gmail</li>
+                    <li>Images</li>
+                </ul>
+            </div>
     </header>
     <div class="main-content">
-        <img alt="google logo" src="images/googlelogo_color_272x92dp.png"/>
+        <img alt="google logo" src="images/googlelogo_color_272x92dp.png" />
         <form>
             <div class="form-elements">
-                <input class="search-box" type="text" placeholder="Search"/>
+                <input class="search-box" type="text" placeholder="Search" />
             </div>
             <div class="form-elements ">
-                <input  class="search-btn" type="submit" value="Google Search"/>
-                <input  class="search-btn" type="submit" value="I'm Feeling Lucky"/>
+                <div class="form-elements-btn">
+                    <input class="search-btn search-btn-1" type="submit" value="Google Search" />
+                    <input class="search-btn search-btn-2" type="submit" value="I'm Feeling Lucky" />
+                </div>
+
             </div>
         </form>
         <div class="languages">
@@ -60,4 +73,5 @@
         </div>
     </footer>
 </body>
+
 </html>
