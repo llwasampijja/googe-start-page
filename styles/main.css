@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+header {
+    width: 100%;
+}
+
+header .top-header ul {
+    float: right;
+}
+
+header .top-header ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-content {
+    width: 60%;
+    margin: 10px;
+}
+
+.main-content img {
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.main-content form .form-elements{
+    width: 100%;
+    margin: 20px auto;
+    
+}
+
+.main-content form .form-elements .search-box {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    display: inline-block;
+}
+
+.main-content form .form-elements .search-btn {
+    display: inline-block;
+    padding: 10px;
+}
+
+.main-content .languages ul li {
+    list-style: none;
+    display: inline-block;
+    padding: auto;
+
+}
+
+footer {
+    margin: auto, auto, 0px;
+    background-color: #D3D3D3;
+}
+
+footer .footer-top {
+    padding: 5px;
+}
+
+footer .footer-bottom {
+    padding: 5px;
+    
+}
+
+footer .footer-bottom .footer-left-menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: auto;
+}
+
+footer .footer-bottom .footer-left-menu{
+    float: left;
+}
+
+footer .footer-bottom .footer-right-menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: auto;
+}
+
+footer .footer-bottom .footer-right-menu{
+    float: right;
+}
