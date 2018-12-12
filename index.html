@@ -17,24 +17,25 @@
                 <li>Images</li>
             </ul>
         </div>
-        <div class="mobile-menu">
-            <button class="dropbtn">&#9776;</button>
-            <div class="menu-content">
+        <div class="menu-btn">
+            <button onclick="toggleMobileMenuVisibility()" class="dropbtn">&#9776;</button>
+            <div id="mobile-menu" class="menu-content">
                 <ul>
-                    <li>Gmail</li>
-                    <li>Images</li>
+                    <li><a href="#Gmail">Home</a></li>
+                    <li><a href="#Images">About</a></li>
                 </ul>
             </div>
+        </div>
     </header>
     <div class="main-content">
         <img alt="google logo" src="images/googlelogo_color_272x92dp.png" />
-        <form>
+        <form name="google-form">
             <div class="form-elements">
-                <input class="search-box" type="text" placeholder="Search" />
+                <input class="search-box" type="text" placeholder="Search" name="search-text" />
             </div>
             <div class="form-elements ">
                 <div class="form-elements-btn">
-                    <input class="search-btn search-btn-1" type="submit" value="Google Search" />
+                    <input onclick="checkSearchInput()" class="search-btn search-btn-1" type="submit" value="Google Search" />
                     <input class="search-btn search-btn-2" type="submit" value="I'm Feeling Lucky" />
                 </div>
 
@@ -72,6 +73,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="javascript/jscript.js"></script>
 </body>
 
 </html>

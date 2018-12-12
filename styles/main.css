@@ -14,8 +14,12 @@ header .top-header ul {
     float: right;
 }
 
-header .mobile-menu {
+header .menu-btn {
     margin: 10px;
+    display: none;
+}
+
+#mobile-menu {
     display: none;
 }
 
@@ -125,7 +129,7 @@ footer .footer-bottom .footer-right-menu{
         display: none;
     }
 
-    header .mobile-menu {
+    header .menu-btn {
         display: inline-block;
     }
 
@@ -139,5 +143,7 @@ footer .footer-bottom .footer-right-menu{
         display: none;
           
     }
+
+    
 
   }
