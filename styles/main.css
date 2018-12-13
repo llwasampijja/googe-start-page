@@ -6,7 +6,11 @@
     padding: 0;
   }
 
-html, body {
+html {
+    width: 100%;
+}
+
+body {
     width: 95%;
 }
 
@@ -16,6 +20,11 @@ header {
 
 header .top-header ul {
     float: right;
+}
+
+header .top-header ul li a img {
+    border-radius: 50%;
+    width: 33px;
 }
 
 header .menu-btn {
@@ -46,13 +55,41 @@ header .top-header ul li {
     display: block;
     width: 85%;
     margin: 10px;
+    padding: 150px 5% 50px;
 }
 
-.main-content img {
+.main-content .google-logo {
     width: 300px;
     display: block;
     margin: auto;
+    font-weight: bold;
+    font-size: 70px;
 }
+
+.main-content .google-logo span:first-child {
+    color: blue;
+}
+.main-content .google-logo span:nth-child(2) {
+    color: red;
+}
+
+.main-content .google-logo span:nth-child(3) {
+    color: yellow;
+}
+
+.main-content .google-logo span:nth-child(4) {
+    color: blue;
+}
+
+.main-content .google-logo span:nth-child(5) {
+    color: green;
+}
+
+
+.main-content .google-logo span:last-child {
+    color: red;
+}
+
 
 .main-content form {
     width: 95%;
@@ -66,7 +103,9 @@ header .top-header ul li {
 }
 
 .main-content form .form-elements .form-elements-btn {
-    overflow: auto;   
+    overflow: auto;
+    /* width: 95%; */
+    padding: 0px 24%;
 }
 
 .main-content form .form-elements .search-box {
@@ -90,12 +129,13 @@ header .top-header ul li {
 .main-content .languages ul{
     margin: auto;
     width: 95%;
+    padding-left: 21%;
 }
 
 .main-content .languages ul li {
     list-style: none;
     display: inline-block;
-    padding: 5px;
+    padding: 2px;
 
 }
 
@@ -162,8 +202,9 @@ footer .footer-bottom .footer-right-menu{
           
     }
 
-    .main-content img {
+    .main-content .google-logo {
         width: 50%;
+        font-size: 38px;
     }
 
     .main-content .languages ul li {
